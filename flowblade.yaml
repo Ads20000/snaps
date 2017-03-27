@@ -1,0 +1,33 @@
+name: flowblade
+version: trunk
+summary: Flowblade
+description: Free & Libre Video Editor
+confinement: devmode
+grade: devel
+# Need to link to the icon here somehow
+apps:
+  flowblade:
+    command: desktop-launch $SNAP/flowblade-trunk/flowblade
+parts:
+  app:
+    plugin: dump
+    stage-packages:
+      - python-gi
+      - python-mlt
+      - python-dbus
+      - libmlt-data
+      - python
+      - frei0r-plugins
+      - swh-plugins
+      - python-gi-cairo
+      - python-numpy
+      - python-pil
+      - librsvg2-common
+      - gmic
+      - gir1.2-glib-2.0
+      - gir1.2-gtk-3.0
+      - gir1.2-pango-1.0
+      - gir1.2-gdkpixbuf-2.0
+    source: https://github.com/jliljebl/flowblade.git
+    after:
+      - desktop-gtk3
