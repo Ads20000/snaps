@@ -1,3 +1,5 @@
+# This file should be named `snapcraft.yaml` and the command `snapcraft` run in the directory it is in
+
 name: flowblade
 version: trunk
 summary: Flowblade
