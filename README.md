@@ -10,3 +10,6 @@ Snappy packages I'm working on:
 Snappy packages I'm keeping an eye on:
 - [Spotify Web Player for Linux](https://github.com/Quacky2200/Spotify-Web-Player-for-Linux/) - [GitHub Issue](https://github.com/Quacky2200/Spotify-Web-Player-for-Linux/issues/65) - Waiting for Snappy to add `yarn` support
 - [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed
+
+Bugs I need to file:
+- LibreOffice - Various issues (wrote a comment a while back about them, need to find that), lack of spellcheck is one of them (but how to determine which `hunspell` package to install?!)
