@@ -5,7 +5,7 @@ Unfortunately I'm not a developer - I did GCSE Computing (qBASIC, Little Man Com
 
 Snappy packages I'm working on:
 - [Neofetch](https://github.com/dylanaraps/neofetch/) - [GitHub Issue](https://github.com/dylanaraps/neofetch/issues/645) - Missing Model, Theme and Icons in confinement, missing Packages, WM Theme, and GPU more generally. Also need to cut down on stage-packages if possible
-- [Flowblade](https://github.com/jliljebl/flowblade) - Didn't work when using Ubuntu 16.10 packages in the Snap, `permission denied` error when trying to pull a Snap built in an Ubuntu 17.04 LXD container.
+- [Flowblade](https://github.com/jliljebl/flowblade) - After building on 17.04: `Importing the multiarray numpy extension module failed.`
 
 Snappy packages I'm keeping an eye on:
 - [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed
