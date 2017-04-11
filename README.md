@@ -8,8 +8,11 @@ Snappy packages I'm working on:
 - [Flowblade](https://github.com/jliljebl/flowblade) - Didn't work when using Ubuntu 16.10 packages in the Snap, `permission denied` error when trying to pull a Snap built in an Ubuntu 17.04 LXD container.
 
 Snappy packages I'm keeping an eye on:
-- [Spotify Web Player for Linux](https://github.com/Quacky2200/Spotify-Web-Player-for-Linux/) - [GitHub Issue](https://github.com/Quacky2200/Spotify-Web-Player-for-Linux/issues/65) - Waiting for Snappy to add `yarn` support
 - [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed
+
+Snappy packages I want to make:
+- Corebird - Need to get test Diddledan's Snap and get in contact with him
+- KDE Connect Indicator
 
 Bugs I need to file:
 - LibreOffice - Various issues (wrote a comment a while back about them, need to find that), lack of spellcheck is one of them (but how to determine which `hunspell` package to install?!)
