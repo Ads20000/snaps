@@ -14,7 +14,7 @@ Snappy packages I'm keeping an eye on:
 - [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed
 
 Snappy packages I want to make:
-- Corebird - Need to get test Diddledan's Snap and get in contact with him
+- Corebird - Asked upstream to provide a Snap, but until [this](https://forum.snapcraft.io/t/integrate-snapd-xdg-open-into-snapd-repository/100/) happens, the Snap will not work on any non-Ubuntu distribution and requires an extra command to install on Ubuntu.
 - KDE Connect Indicator
 
 Bugs I need to file:
