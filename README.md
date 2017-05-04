@@ -13,9 +13,10 @@ Snappy packages I'm working on:
 Snappy packages I'm keeping an eye on:
 - [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed.
 - [Phoenicis (PlayOnLinux5)](https://github.com/PlayOnLinux/POL-POM-5/) - [GitHub Issue](https://github.com/PlayOnLinux/POL-POM-5/issues/752)
+- [Google Play Music Desktop Player](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-) [Devmode Snap released] - [GitHub Issue](https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/issues/2464#issuecomment-297883345) - Three bugs to be fixed.
 
 Snappy packages I want to make:
-- Corebird - Asked upstream to provide a Snap, but until [this](https://forum.snapcraft.io/t/integrate-snapd-xdg-open-into-snapd-repository/100/) happens, the Snap will not work on any non-Ubuntu distribution and requires an extra command to install on Ubuntu.
+- Corebird - [Asked upstream to provide a Snap](https://github.com/baedert/corebird/issues/707), but until [this](https://forum.snapcraft.io/t/integrate-snapd-xdg-open-into-snapd-repository/100/) happens, the Snap will not work on any non-Ubuntu distribution and requires an extra command to install on Ubuntu.
 - KDE Connect Indicator
 
 Bugs I need to file:
