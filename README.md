@@ -4,14 +4,15 @@ Developers should maintain Snaps for their own applications, but I'm trying to g
 Unfortunately I'm not a developer - I did GCSE Computing (qBASIC, Little Man Computer) and started JavaScript and Python CodeCademy courses but not much other that (I haven't done OOP before, for example). I want to try and help Ubuntu anyway by doing what I can for the Snappy project using the instructions on [the Snapcraft website](https://snapcraft.io/) and [the Ubuntu Tutorials website](https://tutorials.ubuntu.com/).
 
 Current status:
-Can't build Snaps until 2 May because my Internet speed will be 1mbps until then so it's too difficult to pull in all the `stage-packages` on each build.
+Won't be building Snaps much since I have revision and exams until the end of May.
 
 Snappy packages I'm working on:
 - [Neofetch](https://github.com/dylanaraps/neofetch/) - [GitHub Issue](https://github.com/dylanaraps/neofetch/issues/645) - Missing Model, Theme and Icons in confinement, missing Packages, WM Theme, and GPU more generally. Also need to cut down on stage-packages if possible
 - [Flowblade](https://github.com/jliljebl/flowblade) - After building on 17.04: `Importing the multiarray numpy extension module failed.`
 
 Snappy packages I'm keeping an eye on:
-- [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed
+- [Peek](https://github.com/phw/peek) [Edge Devmode Snap released] - [GitHub Issue](https://github.com/phw/peek/issues/84) - Three bugs to be fixed.
+- [Phoenicis (PlayOnLinux5)](https://github.com/PlayOnLinux/POL-POM-5/) - [GitHub Issue](https://github.com/PlayOnLinux/POL-POM-5/issues/752)
 
 Snappy packages I want to make:
 - Corebird - Asked upstream to provide a Snap, but until [this](https://forum.snapcraft.io/t/integrate-snapd-xdg-open-into-snapd-repository/100/) happens, the Snap will not work on any non-Ubuntu distribution and requires an extra command to install on Ubuntu.
