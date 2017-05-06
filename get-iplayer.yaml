@@ -1,0 +1,23 @@
+name: get-iplayer
+version: master
+summary: A utility for downloading TV and radio from BBC iPlayer
+description: BBC iPlayer Indexing Tool and PVR
+confinement: devmode
+grade: devel
+apps:
+  get-iplayer:
+    command: get_iplayer
+parts:
+  get-iplayer:
+    source: https://github.com/get-iplayer/get_iplayer.git
+    plugin: dump
+    prepare: chmod 755 get_iplayer
+    stage-packages:
+      - libwww-perl
+      - liblwp-protocol-https-perl
+      - libmojolicious-perl
+      - libxml-simple-perl
+      - libxml-libxml-perl
+      - libcgi-pm-perl
+      - atomicparsley
+      - ffmpeg
