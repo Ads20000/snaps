@@ -1,6 +1,6 @@
 #!/bin/sh
 
-$SNAP/usr/bin/perl -I $SNAP/usr/share/perl/5.24 -I $SNAP/usr/lib/x86_64-linux-gnu/perl/5.24 -I $SNAP/usr/lib/x86_64-linux-gnu/perl5/5.24 -I $SNAP/usr/share/perl5 $SNAP/scripts/run.sh
+$SNAP/usr/bin/perl -I $SNAP/usr/share/perl/5.24 -I $SNAP/usr/lib/x86_64-linux-gnu/perl/5.24 -I $SNAP/usr/lib/x86_64-linux-gnu/perl5/5.24 -I $SNAP/usr/share/perl5 $SNAP/get_iplayer
 
 
 # Alternative run.sh (less hardcoded, suggested by Perl IRC folks)
