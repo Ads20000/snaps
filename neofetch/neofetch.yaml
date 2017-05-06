@@ -1,14 +1,10 @@
-# This file should be named `snapcraft.yaml` and the command `snapcraft` run in the directory it is in
-
 name: neofetch
-# Change version to `master` for build from Git repository
 version: 3.0
 summary: Neofetch
 description: A fast, highly customizable system info script
 confinement: devmode
 grade: stable
 # Needs an icon
-# Change grade to `devel` for build from Git repository
 apps:
   neofetch:
     command: neofetch
@@ -25,5 +21,4 @@ parts:
       - scrot
       - x11-utils
       - moc
-    # Change source to `https://github.com/dylanaraps/neofetch.git` for build from Git repository
     source: https://github.com/dylanaraps/neofetch/archive/3.0.tar.gz
