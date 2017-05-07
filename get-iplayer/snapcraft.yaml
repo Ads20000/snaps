@@ -6,15 +6,16 @@ confinement: devmode
 grade: devel
 apps:
   get-iplayer:
-    command: sh scripts/run.sh
+    command: scripts/run-cli.sh
+  server:
+    command: scripts/run-server.sh
+    daemon: simple
 parts:
   get-iplayer:
     source: https://github.com/get-iplayer/get_iplayer.git
     plugin: dump
-    prepare: chmod 755 get_iplayer
-    organize:
-      get_iplayer: scripts/get_iplayer
     stage-packages:
+      - perl-base
       - libwww-perl
       - liblwp-protocol-https-perl
       - libmojolicious-perl
@@ -27,4 +28,5 @@ parts:
     plugin: dump
     source: .
     organize:
-      run.sh: scripts/run.sh
+      run-cli.sh: scripts/run-cli.sh
+      run-server.sh: scripts/run-server.sh
