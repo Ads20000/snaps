@@ -1,12 +1,12 @@
 name: get-iplayer
-version: master
+version: 3.01
 summary: A utility for downloading TV and radio from BBC iPlayer
 description: BBC iPlayer Indexing Tool and PVR
 confinement: devmode
 grade: devel
 apps:
   get-iplayer:
-    command: scripts/run-cli.sh
+    command: scripts/run-cli.pl
   server:
     command: scripts/run-server.sh
     daemon: simple
@@ -28,5 +28,5 @@ parts:
     plugin: dump
     source: .
     organize:
-      run-cli.sh: scripts/run-cli.sh
+      run-cli.pl: scripts/run-cli.pl
       run-server.sh: scripts/run-server.sh
