@@ -6,7 +6,7 @@ confinement: devmode
 grade: devel
 apps:
   get-iplayer:
-    command: scripts/run-cli.pl
+    command: scripts/run-cli.sh
   server:
     command: scripts/run-server.sh
     daemon: simple
@@ -28,5 +28,5 @@ parts:
     plugin: dump
     source: .
     organize:
-      run-cli.pl: scripts/run-cli.pl
+      run-cli.sh: scripts/run-cli.sh
       run-server.sh: scripts/run-server.sh
