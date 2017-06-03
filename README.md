@@ -4,11 +4,11 @@ Developers should maintain snaps for their own applications, but I'm trying to g
 Unfortunately I'm not a developer - I did GCSE Computing (qBASIC, Little Man Computer) and started JavaScript and Python CodeCademy courses but not much other that (I haven't done OOP before, for example). I want to try and help Ubuntu anyway by doing what I can for the snappy project using the instructions on [the snapcraft website](https://snapcraft.io/) and [the Ubuntu Tutorials website](https://tutorials.ubuntu.com/).
 
 Current status:
-Won't be building snaps much since I have revision and exams until the end of May.
+Fairly busy up until 8 June, then free for more snapcrafting up until 16 June.
 
 Snappy packages I'm working on:
 - [Neofetch](https://github.com/dylanaraps/neofetch/) - [GitHub Issue](https://github.com/dylanaraps/neofetch/issues/645) - Missing Model, Theme and Icons in confinement, missing Packages, WM Theme, and GPU more generally. Also need to cut down on stage-packages if possible
-- [Flowblade](https://github.com/jliljebl/flowblade) - After building on 17.04: `Importing the multiarray numpy extension module failed.
+- [Flowblade](https://github.com/jliljebl/flowblade) - After building on 17.04: `Importing the multiarray numpy extension module failed.`
 - [get-iplayer](https://github.com/get-iplayer/get_iplayer) - `ERROR: Cannot read options file /etc/get_iplayer/options` when running in strict confinement
 
 Snappy packages I'm keeping an eye on:
@@ -18,6 +18,8 @@ Snappy packages I'm keeping an eye on:
 
 Snappy packages I want to make:
 - KDE Connect Indicator
+- KeeWeb
+- Pokemon Showdown
 
 Bugs I need to file:
 - LibreOffice - Various issues (wrote a comment a while back about them, need to find that), lack of spellcheck is one of them (but how to determine which `hunspell` package to install?!)
