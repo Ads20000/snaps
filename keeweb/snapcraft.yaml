@@ -1,0 +1,27 @@
+name: keeweb
+version: 1.5.4
+summary: Free cross-platform password manager compatible with KeePass
+description: |
+  This webapp is a desktop password manager compatible with KeePass
+  databases. It doesn't require any server or additional resources.
+
+grade: devel
+confinement: devmode
+
+# icon:
+
+apps:
+  keeweb:
+    command: npm run-script electron
+#   plugs:
+
+parts:
+  keeweb:
+    source: https://github.com/keeweb/keeweb.git
+    source-tag: v1.5.4
+    plugin: nodejs
+    node-package-manager: yarn
+    install:
+      grunt
+    after:
+      - desktop-glib-only
