@@ -1,10 +1,9 @@
 name: neofetch
-version: 3.0
+version: 3.1.0
 summary: Neofetch
 description: A fast, highly customizable system info script
 confinement: devmode
 grade: stable
-# Needs an icon
 apps:
   neofetch:
     command: neofetch
@@ -21,4 +20,5 @@ parts:
       - scrot
       - x11-utils
       - moc
-    source: https://github.com/dylanaraps/neofetch/archive/3.0.tar.gz
+    source: https://github.com/dylanaraps/neofetch.git
+    source-tag: 3.1.0
