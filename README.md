@@ -9,7 +9,7 @@ Currently have less than 1mbps Internet so unable to snapcraft until September, 
 Snaps I'm working on:
 - [get-iplayer](https://github.com/get-iplayer/get_iplayer) - `ERROR: Cannot read options file /etc/get_iplayer/options` when running in strict confinement
 - [Neofetch](https://github.com/dylanaraps/neofetch/) - [GitHub Issue](https://github.com/dylanaraps/neofetch/issues/645) - [snapcraft forum post](https://forum.snapcraft.io/t/snapping-neofetch/877) - Lots of bugs detailed in the forum post!
-- [KeeWeb](https://github.com/keeweb/keeweb) - [snapcraft forums post](https://forum.snapcraft.io/t/snapcraft-wishlist-shortlist/871) - Have to use `grunt --force` to build and then get the following error when trying to run it after doing that: `ENOENT: no such file or directory, open '/home/adam/Ubuntu/SnappyPackages/KeeWeb-ManualSnap/snap/package.json'`
+- [KeeWeb](https://github.com/keeweb/keeweb) - [snapcraft forum post](https://forum.snapcraft.io/t/snapcraft-wishlist-shortlist/871) - Have to use `grunt --force` to build and then get the following error when trying to run it after doing that: `ENOENT: no such file or directory, open '/home/adam/Ubuntu/SnappyPackages/KeeWeb-ManualSnap/snap/package.json'`
 - [Flowblade](https://github.com/jliljebl/flowblade) - After building on 17.04: `Importing the multiarray numpy extension module failed.`
 
 Snaps I'm keeping an eye on:
