@@ -4,15 +4,18 @@ summary: A utility for downloading TV and radio from BBC iPlayer
 description: BBC iPlayer Indexing Tool and PVR
 confinement: devmode
 grade: devel
+
 apps:
   get-iplayer:
-    command: scripts/run-cli.sh
+    command: scripts/run-cli.pl
   server:
-    command: scripts/run-server.sh
+    command: scripts/run-server.pl
     daemon: simple
+
 parts:
   get-iplayer:
     source: https://github.com/get-iplayer/get_iplayer.git
+    source-tag: v3.01
     plugin: dump
     stage-packages:
       - perl-base
@@ -22,11 +25,14 @@ parts:
       - libxml-simple-perl
       - libxml-libxml-perl
       - libcgi-pm-perl
-      - atomicparsley
       - ffmpeg
   launcher:
     plugin: dump
     source: .
     organize:
-      run-cli.sh: scripts/run-cli.sh
-      run-server.sh: scripts/run-server.sh
+      run-cli.pl: scripts/run-cli.pl
+      run-server.pl: scripts/run-server.pl
+  atomicparsley:
+    source: https://bitbucket.org/wez/atomicparsley
+    source-type: hg
+    plugin: autotools
