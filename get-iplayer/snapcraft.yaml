@@ -26,13 +26,10 @@ parts:
       - libxml-libxml-perl
       - libcgi-pm-perl
       - ffmpeg
+      - atomicparsley
   launcher:
     plugin: dump
     source: .
     organize:
       run-cli.pl: scripts/run-cli.pl
       run-server.pl: scripts/run-server.pl
-  atomicparsley:
-    source: https://bitbucket.org/wez/atomicparsley
-    source-type: hg
-    plugin: autotools
