@@ -1,4 +1,4 @@
-# My snaps (depreciated)
+# My snaps
 Developers should maintain snaps for their own applications, but I'm trying to get them started with an initial `snapcraft.yaml` which they can then integrate into their auto-build system to build snaps - hopefully they'll be able to maintain it from there.
 
 Unfortunately I'm not a developer - I did GCSE Computing (qBASIC, Little Man Computer) and started JavaScript and Python CodeCademy courses but not much other that (I haven't done OOP before, for example). I want to try and help Ubuntu anyway by doing what I can for the snappy project using the instructions on [the snapcraft website](https://snapcraft.io/) and [the Ubuntu Tutorials website](https://tutorials.ubuntu.com/).
